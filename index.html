@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árfolyam váltás</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <input type="number" name="input-osszeg" id="input-osszeg" value="1">
+    <input type="number" name="atvaltott-osszeg" id="atvaltott-osszeg" disabled>
+    <select name="select-valuta-from" id="select-valuta-from">
+        <option value="HUF">HUF</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="USD">USD</option>
+    </select>
+    <select name="select-valuta-to" id="select-valuta-to">
+        <option value="HUF">HUF</option>
+        <option value="EUR" selected>EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="USD">USD</option>
+    </select>
+    <button id="button-valtas">Váltás</button>
+</body>
+</html>
